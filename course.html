@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .adminBtn{
+      margin :20px 400px 20px 600px;
+  height: 60px;width: 110px;font-size: 22px;border-radius: 10px;background-color: rgb(234, 0, 255);
+  color: white;font-weight: 700;
+    }
+    .adminBtn:hover{ 
+        background-color: black;color:red;
+        border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+   <!-- Navigation    -->
+    <nav>
+      <img src="navI.jpg" alt="" style="height:50px;"/>
+      <div class="navigation">
+        <ul>
+          <img id="menuClose" src="cross.png" style="height: 20px;width: 20px;"/>
+          <li><a  href="index.html">Home</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="active" href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <img id="menuBtn" src="ham.png" style="width:44px;height:35px;margin-left: 15px;margin-right: -10px;"/>
+        </ul>
+    </nav>
+    <!-- Home   -->
+     <section id="aboutHome">
+      <h1>Courses /</h1>
+      
+    </section>
+  <button class="adminBtn" >Admin</button>
+
+    <section id="course">
+        <h1>Our Popular Course</h1>
+        <p>Replenish man have thing gathering lights yielding shall you .</p>
+        <div class="courseBox">
+          <div onclick="window.location.href='CourseInner.html';" class="courses">
+            <img src="javaI.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>JavaScript Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $49.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='pythonCourse.html';" class="courses">
+            <img src="pyt.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>Python Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $109.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='Ccourse.html';" class="courses">
+            <img src="C++.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>C++ Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $85.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='ReactCourse.html';" class="courses">
+            <img src="reac.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>React JS Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $99.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='AngularCourse.html';" class="courses">
+            <img src="ang.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>Angular JS Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $109.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='AICourse.html';" class="courses">
+            <img src="ai.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>Artificial Intelligence Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $149.99
+            </div>
+          </div>
+
+          <div  onclick="window.location.href='VueCourse.html';" class="courses">
+            <img src="vueCourse.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>Vue JS Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $99.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='DJangoCourse.html';" class="courses">
+            <img src="djangoCourse.png" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>Python Django Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $109.99
+            </div>
+          </div>
+
+          <div onclick="window.location.href='FlaskCourse.html';" class="courses">
+            <img src="flaskCourse.png" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>Python Flask Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $149.99
+            </div>
+          </div>
+        </div>
+      </section>
+
+<div class="portal"></div>
+<script>
+  // Select elements
+  let course = document.querySelector("#course");
+  let adminBtn = document.querySelector(".adminBtn");
+  let portal = document.querySelector(".portal");
+  let courseBox = document.querySelector(".courseBox");
+
+  // Load courses from local storage on page load
+  document.addEventListener('DOMContentLoaded', () => {
+      loadCourses();
+  });
+
+  // Show admin portal when the admin button is clicked
+  adminBtn.addEventListener('click', () => {
+      course.style.display = "none";
+      portal.innerHTML = `
+          <div style="width:500px;height:260px;border:2px solid black;border-radius:10px;margin-left:400px;
+          background-color:pink;">
+              <h1 style="text-align:center;">Admin Portal</h1>
+              <input type="text" class="headingText" style="border-radius:10px;height:40px;width:370px;margin-left:60px;" placeholder="Enter Heading Text" /><br><br>
+              <input type="text" class="imageLink" style="border-radius:10px;height:40px;width:370px;margin-left:60px;" /> <br><br>
+              <button class="addCard" style="background-color:black;color:red;border-radius:10px;width:80px;height:35px;font-size:20px;margin-left:100px;margin-top:5px;" >Add</button>
+              <button id="goBack" style="background-color:black;color:red;border-radius:10px;width:130px;height:35px;font-size:20px;margin-left:90px;margin-top:5px;" >Go Back</button>
+          </div>
+      `;
+
+      // Add a new course card when the Add button is clicked
+      document.querySelector(".addCard").addEventListener('click', () => {
+          // Create a new course card element
+          let newCard = document.createElement('div');
+          newCard.classList.add('courses');
+          let headingText = document.querySelector(".headingText").value ;
+          let imageLink = document.querySelector(".imageLink").value ;
+          newCard.innerHTML = `
+              <img src="${imageLink}" />
+              <div class="details">
+                  <span>Updated today</span>
+                  <h6>${headingText} Beginners Course</h6><br>
+                  <div class="star">
+                      <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                      <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                      <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                      <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                      <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                      <button class="del">Delete it</button>
+                      <span>(239)</span>
+                  </div>
+              </div>
+              <div class="cost">
+                  $49.99
+              </div>
+          `;
+
+          // Append the new card to the courseBox
+          courseBox.appendChild(newCard);
+
+          // Save the current state to local storage
+          saveCourses();
+
+          // Re-add delete functionality to the newly added card
+          addDeleteListeners();
+      });
+
+      // Go back to the course view when the Go Back button is clicked
+      document.querySelector("#goBack").addEventListener('click', () => {
+          course.style.display = "block";
+          portal.innerHTML = "";
+      });
+  });
+
+  // Function to save courses to local storage
+  function saveCourses() {
+      let courses = [];
+      document.querySelectorAll(".courseBox .courses").forEach(course => {
+          courses.push(course.innerHTML);
+      });
+      localStorage.setItem('courses', JSON.stringify(courses));
+  }
+
+  // Function to load courses from local storage
+  function loadCourses() {
+      // Clear existing courses
+      courseBox.innerHTML = '';
+
+      let courses = JSON.parse(localStorage.getItem('courses')) || [];
+      courses.forEach(courseHTML => {
+          let course = document.createElement('div');
+          course.classList.add('courses');
+          course.innerHTML = courseHTML;
+          courseBox.appendChild(course);
+      });
+
+      // Add delete functionality to newly loaded cards
+      addDeleteListeners();
+  }
+
+  // Function to add delete event listeners to all delete buttons
+  function addDeleteListeners() {
+      // Use event delegation to handle delete button clicks
+      courseBox.addEventListener('click', (e) => {
+          if (e.target.classList.contains('del')) {
+              // Remove the card
+              e.target.closest('.courses').remove();
+
+              // Update local storage
+              saveCourses();
+          }
+      });
+  }
+</script>
+
+
+
+
+<!-- <script> 
+   let course = document.querySelector("#course") ;
+   let adminBtn = document.querySelector(".adminBtn") ;
+   let portal = document.querySelector(".portal") ;
+   let courseBox = document.querySelector(".courseBox")
+   adminBtn.addEventListener('click',()=>{
+    course.style.display = "none" ;
+    portal.innerHTML = `<div style="width:500px;height:400px;border:2px solid black;">
+                        <h1 style="text-align:center;">Admin Portal</h1>
+                        
+                          <button class="addCard">Add</button>
+
+                        <button id="goBack">Go Back</button>
+      </div>`
+      let addCard = document.querySelector(".addCard") ;
+      addCard.addEventListener('click',()=>{
+        course.style.display = "block" ;
+        portal.innerHTML = "" ;
+        let newCard = document.createElement("div") ;
+        newCard.classList.add("courses") ;
+        newCard.innerHTML = `<div >
+            <img src="javaI.jpg" />
+            <div class="details">
+              <span>Updated today</span>
+              <h6>JavaScript Beginners Course</h6><br>
+              <div class="star">
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <img src="star.png" style="width:30px;height:30px;margin-left: -10px;" />
+                <span>(239)</span>
+              </div>
+            </div>
+            <div class="cost">
+              $49.99
+            </div>
+          </div>`
+        courseBox.appendChild(newCard) ;
+      })
+      let goBack = document.querySelector("#goBack") ;
+        goBack.addEventListener('click',()=>{
+          course.style.display = "block" ;
+          portal.innerHTML = "" ;
+        })
+  })
+</script> -->
+          <!-- Footer   -->
+           <footer>
+             <div class="footerCol">
+              <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed website</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed website</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>News Letters</h3>
+                <p>You can trust Us . We only send Promo offers ,</p>
+                  <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address" />
+                    <a href="" class="yellow">Subscribe</a>
+                  </div>
+             </div>
+             <div class="copyright">
+              <p>Copyright &copy 2024 rights reserved  | This template by me .</p>
+             </div>
+             <div class="proLinks">
+              <div class="proLinks">
+                <img src="fblogo.png" style="height:25px;width:50px;"/>
+                <img src="inst.jpg" style="height:30px;width:40px;"/>
+                <img src="In.jpg" style="height:30px;width:40px;"/>
+             </div>
+             </div>
+           </footer>
+
+       <script >
+           $('#menuBtn').click(function(){
+            $('nav .navigation ul').addClass('active')
+         }) 
+
+        $('#menuClose').click(function(){
+           $('nav .navigation ul').removeClass('active')
+        }) ;
+       </script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation    -->
+    <nav>
+      <img src="navI.jpg" alt="" style="height:50px;"/>
+      <div class="navigation">
+        <ul>
+          <img id="menuClose" src="cross.png" style="height: 20px;width: 20px;"/>
+          <li><a  href="index.html">Home</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <img id="menuBtn" src="ham.png" style="width:44px;height:35px;margin-left: 15px;margin-right: -10px;"/>
+        </ul>
+    </nav>
+   
+    <section id="blogContainer">
+        <div class="blogs blogPost">
+            <div class="post">
+                <img src="blogPo.jpg" style="width:700px;height:500px;border-radius:30px;" />
+                <h3>Learn Web Developmwnt in The Easiest Way .</h3>
+                <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. A voluptas quo tempore maxime 
+                    sunt illo labore necessitatibus? Dolore quam nostrum, aspernatur corrupti molestias
+                     blanditiis. Culpa dignissimos nobis fuga minima repellat.
+                     <br>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse omnis porro natus
+                      deleniti atque quos unde modi, iure dolores officiis excepturi ipsam quibusdam rem
+                       blanditiis, quod reprehenderit quidem, harum hic aspernatur. Ipsa sed illum, 
+                       perferendis maiores laboriosam possimus sint vitae veniam dolorum est maxime
+                        voluptatem soluta numquam harum rem iure nulla saepe voluptatum ad delectus! 
+                        Consequuntur laudantium eos debitis qui similique provident eligendi enim ducimus 
+                        ratione minima quam facilis, pariatur minus? Reprehenderit, autem nesciunt vero
+                         maiores odit magnam incidunt.</p>
+                         <a href="">Read Next ?</a>
+            </div>
+        </div>
+    </section>
+
+
+          <!-- Footer   -->
+           <footer>
+             <div class="footerCol">
+              <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed website</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed website</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>News Letters</h3>
+                <p>You can trust Us . We only send Promo offers ,</p>
+                  <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address" />
+                    <a href="" class="yellow">Subscribe</a>
+                  </div>
+             </div>
+             <div class="copyright">
+              <p>Copyright &copy 2024 rights reserved  | This template by me .</p>
+             </div>
+             <div class="proLinks">
+              <div class="proLinks">
+                <img src="fblogo.png" style="height:25px;width:50px;"/>
+                <img src="inst.jpg" style="height:30px;width:40px;"/>
+                <img src="In.jpg" style="height:30px;width:40px;"/>
+             </div>
+             </div>
+           </footer>
+
+       <script >
+           $('#menuBtn').click(function(){
+            $('nav .navigation ul').addClass('active')
+         }) 
+
+        $('#menuClose').click(function(){
+           $('nav .navigation ul').removeClass('active')
+        }) ;
+       </script>
+</body>
+</html>

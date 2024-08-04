@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation    -->
+    <nav>
+      <img src="navI.jpg" alt="" style="height:50px;"/>
+      <div class="navigation">
+        <ul>
+          <img id="menuClose" src="cross.png" style="height: 20px;width: 20px;"/>
+          <li><a  href="index.html">Home</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a  href="blog.html">Blog</a></li>
+          <li><a  href="course.html">Courses</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <img id="menuBtn" src="ham.png" style="width:44px;height:35px;margin-left: 15px;margin-right: -10px;"/>
+        </ul>
+    </nav>
+    <!-- Home   -->
+     <section id="aboutHome">
+      <h1>Contact Us /</h1>
+      
+    </section>
+
+    <section id="contact">
+        <div class="getIn">
+            <h2>Get In Touch</h2>
+            <p>Lookung for help? Fill the form and start a new adventure .</p>
+            <div class="getinDetails">
+                <h3>HeadQuarters</h3>
+                <div>
+                    <img src="home.png" style="width:30px;height:30px;" alt="" />
+                    <p>744 New York Ave, Brooklyn, Kings , New York 10244</p>
+                </div>
+
+                <h3>Phone</h3>
+                <div>
+                    <img src="phone.png" style="width:30px;height:30px;" alt="" />
+                    <p>(+642) 245 356 432 <br> (+420) 336 476 328 </p>
+                </div>
+
+                <h3>Support</h3>
+                <div>
+                    <img src="email.png" style="width:30px;height:30px;" alt="" />
+                    <p>techEduca@gmail.com <br> hepl@educa.com</p>
+                </div>
+
+                <h3>Follow Us</h3>
+                <div class="proLinks">
+                    <img src="fblogo.png" style="height:25px;width:50px;"/>
+                    <img src="inst.jpg" style="height:30px;width:40px;"/>
+                    <img src="In.jpg" style="height:30px;width:40px;"/>
+                 </div>
+            </div>
+        </div>
+        <div class="form">
+             <h4>Let's Connect</h4>
+             <p>Integer at Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+             <div class="formRow">
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Email" />
+             </div>
+             <div class="formCol">
+                <input type="text" placeholder="Subject" >
+             </div>
+
+             <div class="formCol">
+                <textarea type="text" name="" id="" cols="30" rows="8"  placeholder="Hoe can we Help" >
+
+                </textarea>
+             </div>
+
+             <div class="formCol">
+                <button>Send Message</button>
+             </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14159906.420505693!2d58.3546319874604!3d29.950436907162732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1720081747286!5m2!1sen!2s" 
+         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    
+
+          <!-- Footer   -->
+           <footer>
+             <div class="footerCol">
+              <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed website</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed website</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Services</li>
+             </div>
+
+             <div class="footerCol">
+              <h3>News Letters</h3>
+                <p>You can trust Us . We only send Promo offers ,</p>
+                  <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address" />
+                    <a href="" class="yellow">Subscribe</a>
+                  </div>
+             </div>
+             <div class="copyright">
+              <p>Copyright &copy 2024 rights reserved  | This template by me .</p>
+             </div>
+             <div class="proLinks">
+              <div class="proLinks">
+                <img src="fblogo.png" style="height:25px;width:50px;"/>
+                <img src="inst.jpg" style="height:30px;width:40px;"/>
+                <img src="In.jpg" style="height:30px;width:40px;"/>
+             </div>
+             </div>
+           </footer>
+
+       <script >
+           $('#menuBtn').click(function(){
+            $('nav .navigation ul').addClass('active')
+         }) 
+
+        $('#menuClose').click(function(){
+           $('nav .navigation ul').removeClass('active')
+        }) ;
+       </script>
+</body>
+</html>
